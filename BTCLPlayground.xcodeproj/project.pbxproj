@@ -16,6 +16,11 @@
 		DF167CEA154E4BD500A84E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF167CE9154E4BD500A84E43 /* ViewController.m */; };
 		DF167CED154E4BD500A84E43 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF167CEB154E4BD500A84E43 /* ViewController_iPhone.xib */; };
 		DF167CF0154E4BD500A84E43 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF167CEE154E4BD500A84E43 /* ViewController_iPad.xib */; };
+		DF167CF7154E4BF100A84E43 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CF6154E4BF100A84E43 /* CoreLocation.framework */; };
+		DF167CFD154E4EC800A84E43 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CFC154E4EC800A84E43 /* MobileCoreServices.framework */; };
+		DF167CFF154E4ECE00A84E43 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CFE154E4ECE00A84E43 /* CFNetwork.framework */; };
+		DF167D01154E4EDE00A84E43 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167D00154E4EDE00A84E43 /* SystemConfiguration.framework */; };
+		DF167D06154E562100A84E43 /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF167D04154E562100A84E43 /* LoggerClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +28,23 @@
 		DF167CD6154E4BD500A84E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF167CD8154E4BD500A84E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF167CDA154E4BD500A84E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		DF167CDE154E4BD500A84E43 /* BTCLPlayground-Info.plist */ = {isa = PBXFileReference; path = "BTCLPlayground-Info.plist"; sourceTree = "<group>"; };
+		DF167CDE154E4BD500A84E43 /* BTCLPlayground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTCLPlayground-Info.plist"; sourceTree = "<group>"; };
 		DF167CE0154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF167CE2154E4BD500A84E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DF167CE4154E4BD500A84E43 /* BTCLPlayground-Prefix.pch */ = {isa = PBXFileReference; path = "BTCLPlayground-Prefix.pch"; sourceTree = "<group>"; };
-		DF167CE5154E4BD500A84E43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF167CE4154E4BD500A84E43 /* BTCLPlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTCLPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		DF167CE5154E4BD500A84E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF167CE6154E4BD500A84E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF167CE8154E4BD500A84E43 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DF167CE8154E4BD500A84E43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DF167CE9154E4BD500A84E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DF167CEC154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		DF167CEF154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		DF167CF6154E4BF100A84E43 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF167CFC154E4EC800A84E43 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DF167CFE154E4ECE00A84E43 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF167D00154E4EDE00A84E43 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF167D03154E562100A84E43 /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerClient.h; path = "NSLogger/Client Logger/iOS/LoggerClient.h"; sourceTree = "<group>"; };
+		DF167D04154E562100A84E43 /* LoggerClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggerClient.m; path = "NSLogger/Client Logger/iOS/LoggerClient.m"; sourceTree = "<group>"; };
+		DF167D05154E562100A84E43 /* LoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerCommon.h; path = "NSLogger/Client Logger/iOS/LoggerCommon.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF167D01154E4EDE00A84E43 /* SystemConfiguration.framework in Frameworks */,
+				DF167CFF154E4ECE00A84E43 /* CFNetwork.framework in Frameworks */,
+				DF167CFD154E4EC800A84E43 /* MobileCoreServices.framework in Frameworks */,
+				DF167CF7154E4BF100A84E43 /* CoreLocation.framework in Frameworks */,
 				DF167CD7154E4BD500A84E43 /* UIKit.framework in Frameworks */,
 				DF167CD9154E4BD500A84E43 /* Foundation.framework in Frameworks */,
 				DF167CDB154E4BD500A84E43 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +68,7 @@
 		DF167CC7154E4BD400A84E43 = {
 			isa = PBXGroup;
 			children = (
+				DF167D02154E560900A84E43 /* NSLogger */,
 				DF167CDC154E4BD500A84E43 /* BTCLPlayground */,
 				DF167CD5154E4BD500A84E43 /* Frameworks */,
 				DF167CD3154E4BD500A84E43 /* Products */,
@@ -69,6 +86,10 @@
 		DF167CD5154E4BD500A84E43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF167D00154E4EDE00A84E43 /* SystemConfiguration.framework */,
+				DF167CFE154E4ECE00A84E43 /* CFNetwork.framework */,
+				DF167CFC154E4EC800A84E43 /* MobileCoreServices.framework */,
+				DF167CF6154E4BF100A84E43 /* CoreLocation.framework */,
 				DF167CD6154E4BD500A84E43 /* UIKit.framework */,
 				DF167CD8154E4BD500A84E43 /* Foundation.framework */,
 				DF167CDA154E4BD500A84E43 /* CoreGraphics.framework */,
@@ -99,6 +120,16 @@
 				DF167CE4154E4BD500A84E43 /* BTCLPlayground-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF167D02154E560900A84E43 /* NSLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DF167D03154E562100A84E43 /* LoggerClient.h */,
+				DF167D04154E562100A84E43 /* LoggerClient.m */,
+				DF167D05154E562100A84E43 /* LoggerCommon.h */,
+			);
+			name = NSLogger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +199,7 @@
 				DF167CE3154E4BD500A84E43 /* main.m in Sources */,
 				DF167CE7154E4BD500A84E43 /* AppDelegate.m in Sources */,
 				DF167CEA154E4BD500A84E43 /* ViewController.m in Sources */,
+				DF167D06154E562100A84E43 /* LoggerClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

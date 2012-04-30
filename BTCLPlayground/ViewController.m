@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -28,11 +29,19 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
-    } else {
-        return YES;
-    }
+    return YES;
+}
+
+- (IBAction)startButtonPressed:(id)sender
+{
+    BTLog(@"%s", __PRETTY_FUNCTION__);
+    [[[AppDelegate app] locationManager] startMonitoringSignificantLocationChanges];    
+}
+
+- (IBAction)stopButtonPressed:(id)sender
+{
+    BTLog(@"%s", __PRETTY_FUNCTION__);
+    [[[AppDelegate app] locationManager] stopMonitoringSignificantLocationChanges];
 }
 
 @end
