@@ -85,11 +85,15 @@
  *    Invoked when a new location is available. oldLocation may be nil if there is no previous location
  *    available.
  */
+
+#define LogLocation(l,label) { BTLog(@"[%@] time%@ speed=%d course=%d lat=%d lon=%d alt=%d", label, l.timestamp, l.speed, l.course, l.coordinate.latitude, l.coordinate.longitude, l.altitude); }
 - (void)locationManager:(CLLocationManager *)manager
 	didUpdateToLocation:(CLLocation *)newLocation
            fromLocation:(CLLocation *)oldLocation
 {
     BTLog(@"%s", __PRETTY_FUNCTION__);
+    LogLocation(oldLocation, @"OLD");
+    LogLocation(newLocation, @"NEW");
 }
 
 /*
