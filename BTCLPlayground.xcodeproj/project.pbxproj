@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF167CD7154E4BD500A84E43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CD6154E4BD500A84E43 /* UIKit.framework */; };
+		DF167CD9154E4BD500A84E43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CD8154E4BD500A84E43 /* Foundation.framework */; };
+		DF167CDB154E4BD500A84E43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF167CDA154E4BD500A84E43 /* CoreGraphics.framework */; };
+		DF167CE1154E4BD500A84E43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF167CDF154E4BD500A84E43 /* InfoPlist.strings */; };
+		DF167CE3154E4BD500A84E43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF167CE2154E4BD500A84E43 /* main.m */; };
+		DF167CE7154E4BD500A84E43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF167CE6154E4BD500A84E43 /* AppDelegate.m */; };
+		DF167CEA154E4BD500A84E43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF167CE9154E4BD500A84E43 /* ViewController.m */; };
+		DF167CED154E4BD500A84E43 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF167CEB154E4BD500A84E43 /* ViewController_iPhone.xib */; };
+		DF167CF0154E4BD500A84E43 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF167CEE154E4BD500A84E43 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF167CD2154E4BD500A84E43 /* BTCLPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCLPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF167CD6154E4BD500A84E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF167CD8154E4BD500A84E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF167CDA154E4BD500A84E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF167CDE154E4BD500A84E43 /* BTCLPlayground-Info.plist */ = {isa = PBXFileReference; path = "BTCLPlayground-Info.plist"; sourceTree = "<group>"; };
+		DF167CE0154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF167CE2154E4BD500A84E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF167CE4154E4BD500A84E43 /* BTCLPlayground-Prefix.pch */ = {isa = PBXFileReference; path = "BTCLPlayground-Prefix.pch"; sourceTree = "<group>"; };
+		DF167CE5154E4BD500A84E43 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF167CE6154E4BD500A84E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF167CE8154E4BD500A84E43 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		DF167CE9154E4BD500A84E43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF167CEC154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DF167CEF154E4BD500A84E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF167CCF154E4BD500A84E43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF167CD7154E4BD500A84E43 /* UIKit.framework in Frameworks */,
+				DF167CD9154E4BD500A84E43 /* Foundation.framework in Frameworks */,
+				DF167CDB154E4BD500A84E43 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF167CC7154E4BD400A84E43 = {
+			isa = PBXGroup;
+			children = (
+				DF167CDC154E4BD500A84E43 /* BTCLPlayground */,
+				DF167CD5154E4BD500A84E43 /* Frameworks */,
+				DF167CD3154E4BD500A84E43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF167CD3154E4BD500A84E43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF167CD2154E4BD500A84E43 /* BTCLPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF167CD5154E4BD500A84E43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF167CD6154E4BD500A84E43 /* UIKit.framework */,
+				DF167CD8154E4BD500A84E43 /* Foundation.framework */,
+				DF167CDA154E4BD500A84E43 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF167CDC154E4BD500A84E43 /* BTCLPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				DF167CE5154E4BD500A84E43 /* AppDelegate.h */,
+				DF167CE6154E4BD500A84E43 /* AppDelegate.m */,
+				DF167CE8154E4BD500A84E43 /* ViewController.h */,
+				DF167CE9154E4BD500A84E43 /* ViewController.m */,
+				DF167CEB154E4BD500A84E43 /* ViewController_iPhone.xib */,
+				DF167CEE154E4BD500A84E43 /* ViewController_iPad.xib */,
+				DF167CDD154E4BD500A84E43 /* Supporting Files */,
+			);
+			path = BTCLPlayground;
+			sourceTree = "<group>";
+		};
+		DF167CDD154E4BD500A84E43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF167CDE154E4BD500A84E43 /* BTCLPlayground-Info.plist */,
+				DF167CDF154E4BD500A84E43 /* InfoPlist.strings */,
+				DF167CE2154E4BD500A84E43 /* main.m */,
+				DF167CE4154E4BD500A84E43 /* BTCLPlayground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF167CD1154E4BD500A84E43 /* BTCLPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF167CF3154E4BD500A84E43 /* Build configuration list for PBXNativeTarget "BTCLPlayground" */;
+			buildPhases = (
+				DF167CCE154E4BD500A84E43 /* Sources */,
+				DF167CCF154E4BD500A84E43 /* Frameworks */,
+				DF167CD0154E4BD500A84E43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCLPlayground;
+			productName = BTCLPlayground;
+			productReference = DF167CD2154E4BD500A84E43 /* BTCLPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF167CC9154E4BD400A84E43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Bluetoo Ventures";
+			};
+			buildConfigurationList = DF167CCC154E4BD400A84E43 /* Build configuration list for PBXProject "BTCLPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF167CC7154E4BD400A84E43;
+			productRefGroup = DF167CD3154E4BD500A84E43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF167CD1154E4BD500A84E43 /* BTCLPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF167CD0154E4BD500A84E43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF167CE1154E4BD500A84E43 /* InfoPlist.strings in Resources */,
+				DF167CED154E4BD500A84E43 /* ViewController_iPhone.xib in Resources */,
+				DF167CF0154E4BD500A84E43 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF167CCE154E4BD500A84E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF167CE3154E4BD500A84E43 /* main.m in Sources */,
+				DF167CE7154E4BD500A84E43 /* AppDelegate.m in Sources */,
+				DF167CEA154E4BD500A84E43 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF167CDF154E4BD500A84E43 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF167CE0154E4BD500A84E43 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF167CEB154E4BD500A84E43 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF167CEC154E4BD500A84E43 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DF167CEE154E4BD500A84E43 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF167CEF154E4BD500A84E43 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF167CF1154E4BD500A84E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF167CF2154E4BD500A84E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF167CF4154E4BD500A84E43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCLPlayground/BTCLPlayground-Prefix.pch";
+				INFOPLIST_FILE = "BTCLPlayground/BTCLPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF167CF5154E4BD500A84E43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTCLPlayground/BTCLPlayground-Prefix.pch";
+				INFOPLIST_FILE = "BTCLPlayground/BTCLPlayground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF167CCC154E4BD400A84E43 /* Build configuration list for PBXProject "BTCLPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF167CF1154E4BD500A84E43 /* Debug */,
+				DF167CF2154E4BD500A84E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF167CF3154E4BD500A84E43 /* Build configuration list for PBXNativeTarget "BTCLPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF167CF4154E4BD500A84E43 /* Debug */,
+				DF167CF5154E4BD500A84E43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF167CC9154E4BD400A84E43 /* Project object */;
+}
